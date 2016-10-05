@@ -1,0 +1,10 @@
+{if condition="$pass == 1234"}
+<h1>Bonjour {$name}</h1>
+{elseif condition="$pass == 123456"}
+<h1>Bonjour {$name} DAOU</h1>
+{/if}
+
+{loop="$array"}
+	{$key} - {$value}
+	<br>
+{/loop}
